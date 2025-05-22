@@ -7,7 +7,7 @@ public class ScriptSalida : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
        {
-            FindAnyObjectByType<GameManager>().End(true);
+            FindAnyObjectByType<GameManager>().LoadNextLevel();
        }
     }
 }

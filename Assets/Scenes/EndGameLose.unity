@@ -212,6 +212,8 @@ GameObject:
   - component: {fileID: 488399247}
   - component: {fileID: 488399251}
   - component: {fileID: 488399252}
+  - component: {fileID: 488399254}
+  - component: {fileID: 488399253}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -327,6 +329,34 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 559b8f1cf498078468b1bcf7a0da44fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &488399253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488399246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38ecda3e7e8b60140a62af3398f962cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  bloqueSalida: {fileID: 0}
+  tiempoNivel: 99
+  textoTemporizador: {fileID: 0}
+--- !u!114 &488399254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488399246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7283adbd42330f54fa64c15c29eeae69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &519420028
@@ -600,8 +630,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -29.8, y: -17.66}
-  m_SizeDelta: {x: 29.1, y: 11.09}
+  m_AnchoredPosition: {x: -32.769, y: -16.525}
+  m_SizeDelta: {x: 23.163, y: 8.82}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &549586047
 MonoBehaviour:
@@ -865,8 +895,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 4
-  m_fontSizeBase: 4
+  m_fontSize: 3.5
+  m_fontSizeBase: 3.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -953,8 +983,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 26.41, y: -17.33}
-  m_SizeDelta: {x: 29.1, y: 11.09}
+  m_AnchoredPosition: {x: 32.04, y: -16.613}
+  m_SizeDelta: {x: 25.521, y: 8.645}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1092908419
 MonoBehaviour:
@@ -1270,8 +1300,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 6
-  m_fontSizeBase: 6
+  m_fontSize: 5
+  m_fontSizeBase: 5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

@@ -9,14 +9,20 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 47297e0bf84e9c6418173d05783997c2
   - enabled: 1
-    path: Assets/Scenes/Game.unity
+    path: Assets/Scenes/Game_Level1.unity
     guid: d62a2d75b8056ed489b131d9ec621679
   - enabled: 1
-    path: Assets/Scenes/EndGameLose.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scenes/Game_Level2.unity
+    guid: af9b130713b15a5409714af3c3ac2cf6
+  - enabled: 1
+    path: Assets/Scenes/Game_Level3.unity
+    guid: b1489965bce058c43b9a7c030b975dfd
   - enabled: 1
     path: Assets/Scenes/EndGameWin.unity
     guid: b87e666f431b4a1409361286a5861085
+  - enabled: 1
+    path: Assets/Scenes/EndGameLose.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
